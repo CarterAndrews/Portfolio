@@ -1,0 +1,233 @@
+<DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8">  	
+            <link rel="stylesheet" type="text/css" href="style.css">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+            </script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        </head>
+        <body>
+
+            <ul id="nav">
+                <li style="float: left"><a href="#page-one">Home</a></li>
+                <li style="float: left"><a href="#page-two">About</a></li>
+                <li style="float: left"><a href="#page-three">Video</a></li>
+                <li style="float: left"><a href="#page-four">Gallery</a></li>
+                <li style="float: left"><a href="#page-five">Team</a></li>
+            </ul>
+            <div class="landing section" id="page-one">
+                <a id="home" class="smooth"></a>
+                <div class="bounce"></div>
+            </div>
+            <div class="about section" id="page-two">
+                <a id="about" class="smooth"></a>
+                <h2 id="what">Q: What is CrystalCraft?</h2>
+                <p class="ans">A virtual reality application for building atomic models</p>
+                <p class="ans">A tool for learning about crystal structures at the molecular level</p>
+                <p class="ans">A game for expressing creativity in a calm environment</p>
+                <p class="ans">A interdisciplinary, open source collaboration including students and faculty</p>
+                <p class="ans">and much more...</p>
+                <p class="ans">Download the latest version here </p><a href="downloads/CrsytalCraftDownload.zip" download><img class="download" src="img/download.png" alt="download"></a>
+                <p class="ans">We are are proud that Crystal Craft is a free open source project </p>
+                <p class="ans">Please support us by contributing to our git hub page </p>
+                <a href="https://github.com/CarterAndrews/CrystalCraft"><img class="download" src="img/git.png" alt="git"></a>
+            </div>
+            <div class="video section" id="page-three">
+                <a id="video" class="smooth"></a>
+                <!--<h2 class=SectionTitle>Gallery</h2>
+                <!--<iframe  width="100%" height="100%" src="https://www.youtube.com/embed/BXZ0pIqKEKU"  ></iframe> --> 
+               <div class="videoHolder">
+               <video autoplay muted loop id="myVideo">
+            <source src="img/vrvid.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+                    </video>
+            </div>
+                <p style="font-style: italic" "font-size: 100%" "margin-top: 0" class="end">this is early footage of the application from the perspective of an user</p>
+        </div>
+            <div class="gallery section" id="page-four">
+                <a id="gallery" class="smooth"></a>
+                <h2 class=SectionTitle>Gallery</h2>
+                <table>
+                    <tr> <td><img class="galimg" src="img/fcc.PNG" alt="image1">
+                        <p class="desc">2x2 fcc array</p>
+                        </td>
+                        <td><img class="galimg" src="img/hcp.PNG" alt="image1">
+                        <p class="desc">hcp structure</p>
+                        </td>
+                        <td><img class="galimg" src="img/Atom.PNG" alt="image1">
+                        <p class="desc">new atom texture</p>
+                        </td>
+                    </tr>
+                    <tr> <td><img  class="galimg" src="img/TV.png" alt="image1">
+                        <p class="desc">Crystal Craft in the Vital lab</p>
+                        </td>
+                        <td><img class="galimg" src="img/demo.jpg" alt="image1">
+                        <p class="desc">some of the first demos</p>
+                        </td>
+                        <td><img class="galimg" src="img/team.jpg" alt="image1">
+                        <p class="desc">group team photo</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="team section" id="page-five">
+                <a id="team" class="smooth"></a>
+                <h2 class="SectionTitle">Our Team</h2>
+                <h3 class="SectionSub">This project was created in collaboration with various disciplines of SDSU students and faculty</h3>
+                <div style="text-align: center">
+                <div class="card">
+                    <div class=picture>
+                        <img src="img/carter.jpg" class="headshot" alt="profile pic">
+                    </div><div class="textarea">
+                    <h3 class="name">Carter Andrews</h3>
+                    <ul class="roles">
+                        <li>software engineer</li>
+                    </ul>
+                    <ul class="roles">
+                        <li>web developer</li>
+                    </ul>
+                    <ul class="roles">
+                        <li>game designer</li>
+                    </ul>
+                    <h4 class="name">Contact me</h4>
+                    <ul class="roles">
+                        <li>andrewscart@gmail.com  </li>
+                    </ul>
+                    <ul class="roles">
+                        <li><a href="https://github.com/Kaskaid98">my Github</a></li>
+                    </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class=picture>
+                        <img src="img/ros.jpg" class="headshot" alt="profile pic">
+                    </div><div class="textarea">
+                    <h3 class="name">Roselynn Conrady</h3>
+                    <ul class="roles">
+                        <li>mechanical engineer</li>
+                    </ul>
+                    <ul class="roles">
+                        <li>content designer</li>
+                    </ul>
+                    <ul class="roles">
+                        <li>material scientist</li>
+                    </ul>
+                    <h4 class="name">Contact me</h4>
+                    <ul class="roles">
+                        <li>conrady.roselynn@gmail.com </li>
+                    </ul>
+                    <ul class="roles">
+                        <li><a href=" https://devpost.com/rho-selynn">my Devpost</a></li>
+                    </ul>
+                    </div>
+                </div>
+               <div class="card">
+                    <div class=picture>
+                        <img src="img/patrick.jpg" class="headshot" alt="profile pic">
+                    </div><div class="textarea">
+                    <h3 class="name">Patrick Perrine</h3>
+                    <ul class="roles">
+                        <li>software engineer</li>
+                    </ul>
+                    <ul class="roles">
+                        <li>game designer</li>
+                    </ul>
+                    <ul class="roles">
+                        <li>film maker</li>
+                    </ul>
+                    <h4 class="name">Contact me</h4>
+                    <ul class="roles">
+                        <li>perrinepatrick@gmail.com </li>
+                    </ul>
+                    <ul class="roles">
+                        <li><a href="https://www.linkedin.com/in/patrick-perrine-3a875894/">my LinkedIn</a></li>
+                    </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class=picture>
+                        <img src="img/kain.jpg" class="headshot" alt="profile pic">
+                    </div><div class="textarea">
+                    <h3 class="name">Kain Kun</h3>
+                    <ul class="roles">
+                        <li>programmer</li>
+                    </ul>
+                    <ul class="roles">
+                        <li>graphic artist</li>
+                    </ul>
+                    <ul class="roles">
+                        <li>3D modeller</li>
+                    </ul>
+                    <h4 class="name">Contact me</h4>
+                    <ul class="roles">
+                        <li>kainkun100@gmail.com  </li>
+                    </ul>
+                    <ul class="roles">
+                        <li><a href="https://github.com/Kaskaid98">my Github</a></li>
+                    </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class=picture>
+                        <img src="img/wen.jpg" class="headshot" alt="profile pic">
+                    </div><div class="textarea">
+                    <h3 class="name">Wenwu Xu</h3>
+                    <ul class="roles">
+                        <li>Professor of Engineering</li>
+                    </ul>
+                    <ul class="roles">
+                        <li>SDSU faculty</li>
+                    </ul>
+                    <ul class="roles">
+                        <li>material simulation specialist</li>
+                    </ul>
+                    <h4 class="name">Contact me</h4>
+                    <ul class="roles">
+                        <li>wenwu.xu@sdsu.edu  </li>
+                    </ul>
+                    <ul class="roles">
+                        <li><a href="https://newscenter.sdsu.edu/mechanical/dr_wenwu_xu.aspx?">my SDSU profile</a></li>
+                    </ul>
+                    </div>
+                </div>
+                </div>
+                <p class="end">You've reached the end of the page</p>
+                <a href="#page-one"><p class="end">Click here to go home</p></a>
+            </div>
+        </body>
+        
+
+        <script>
+            jQuery(document).ready(function($) {
+                
+            $.scrollify({
+	section : ".section",
+	sectionName : "s1",
+	interstitialSection : ".header, .footer, .div-normal, .section",
+	easing: "easeOutCubic",
+	scrollSpeed: 1000,
+	offset : 0,
+	scrollbars: true,
+	standardScrollElements: ".header, .footer, .div-normal",
+	setHeights: true,
+	overflowScroll: true,
+	updateHash: true,
+	touchScroll: true,
+            });
+            $('a[href*="#"]:not([href="#"]):not([href="#show"]):not([href="#hide"])').click(function() {
+                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });</script>   
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.11/jquery.scrollify.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    </html>
